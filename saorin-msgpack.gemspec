@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['mail@mashiro.org']
   spec.description   = %q{msgpack formatter for saorin}
   spec.summary       = spec.description
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/mashiro/saorin-msgpack'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'saorin', '>= 0.4.0'
+  spec.add_dependency 'saorin', '>= 0.5.0'
   spec.add_dependency 'msgpack'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
