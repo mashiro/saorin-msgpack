@@ -1,4 +1,4 @@
-# Saorin::Msgpack
+# Saorin::MessagePack
 
 msgpack formatter for saorin
 
@@ -27,7 +27,7 @@ Saorin::Server.start Handler.new, :host => '0.0.0.0', :port => 8080, :formatter 
 ### Client
 
 ```ruby
-Saorin::Cleint.new :url => 'http://localhost:8080', :formatter => MessagePack
+Saorin::Client.new :url => 'http://localhost:8080', :formatter => MessagePack
 ```
 
 ## Contributing
